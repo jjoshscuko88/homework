@@ -1,0 +1,136 @@
+.header {
+
+  &__main {
+    border-bottom: 1px solid #ececec;
+  }
+
+  &__limiter {
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 20px;
+    align-items: center;
+  }
+
+  &__left {
+    display: flex;
+    align-items: center;
+  }
+
+  &__logo {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+
+    img {
+      margin-right: 13px;
+    }
+
+    &-text {
+      color: #222222;
+      font-size: 27px;
+      font-weight: 300;
+      text-transform: uppercase;
+
+      span {
+        color: #f16d7f;
+        font-weight: 900;
+        letter-spacing: 0.68px;
+      }
+    }
+  }
+
+  &__form {
+    border-radius: 3px;
+    border: 1px solid #e6e6e6;
+
+    &-browse {
+      position: relative;
+      display: inline-block;
+      padding: 0 25px 0 15px;
+      color: #222222;
+      font-size: 14px;
+      font-weight: 300;
+      letter-spacing: 0.35px;
+      line-height: 38px;
+
+      &:before {
+        position: absolute;
+        content: '\f0dd';
+        font-family: 'FontAwesome';
+        right: 9px;
+        top: -2px;
+        color: #838383;
+        font-size: 14px;
+      }
+    }
+
+    input {
+      width: 280px;
+      padding: 0 15px;
+      color: #222222;
+      font-size: 14px;
+      font-weight: 300;
+      line-height: 38px;
+      letter-spacing: 0.35px;
+      border-left: 1px solid #e6e6e6;
+      border-right: 1px solid #e6e6e6;
+
+      &::placeholder {
+        color: #a4a4a4;
+      }
+    }
+
+    &-submit {
+      display: inline-block;
+      padding: 0 11px;
+      color: #a4a4a4;
+      font-size: 14px;
+      font-weight: 400;
+      line-height: 38px;
+      letter-spacing: 0.35px;
+    }
+  }
+
+  &__right {
+    display: flex;
+    align-items: center;
+  }
+
+  &__count {
+    margin-right: 25px;
+  }
+
+  &__acc {
+    position: relative;
+    padding: 0 29px 0 19px;
+    line-height: 38px;
+    color: #ffffff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    background-color: #f16d7f;
+
+    &:before {
+      position: absolute;
+      content: '\f0dd';
+      font-family: 'FontAwesome';
+      right: 12px;
+      top: -2px;
+      font-size: 15px;
+    }
+  }
+
+  &__nav {
+    display: flex;
+    justify-content: center;
+
+    &-link {
+      padding: 20px;
+      color: #222222;
+      font-size: 14px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+
+}
